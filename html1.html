@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./html1.css">
+</head>
+<body>
+
+    <center id="form">
+        <div class ="calcContainer">
+           <form name=”calculator”>
+         <!-- top row --> 
+             <div class=”result-clear”>
+            <!-- Display -->
+               <input type=”text” id="display" readonly >
+           <!-- clear button -->
+               <input type=”button” id="clear" placeholder="AC" onclick="clearDisplay()">
+             </div>
+   
+         <!-- All input button -->
+             <div id="keys1">
+           <!-- 2nd row -->
+               <input type=”button” placeholder="9" onclick="appendToDisplay('9')">
+               <input type=”button” placeholder="8" onclick="appendToDisplay('8')">
+               <input type=”button” placeholder="7" onclick="appendToDisplay('7')">
+               <input type=”button” placeholder="+" onclick="appendToDisplay('+')">
+             </div>
+             <div id="keys2">
+           <!-- 3rd row -->
+              <input type=”button” placeholder="4" onclick="appendToDisplay('4')" >
+              <input type=”button” placeholder="5" onclick="appendToDisplay('5')" >
+              <input type=”button” placeholder="6" onclick="appendToDisplay('6')" >
+              <input type=”button” placeholder="-" onclick="appendToDisplay('-')" >
+             </div>
+             <div id="keys3">
+          <!--4th row -->
+              <input type=”button” placeholder="1" onclick="appendToDisplay('1')" >
+              <input type=”button” placeholder="2" onclick="appendToDisplay('2')" >
+              <input type=”button” placeholder="3" onclick="appendToDisplay('3')" >
+              <input type=”button” placeholder="/" onclick="appendToDisplay('/')" >
+            
+         <!-- 5th row -->
+             <input type=”button” placeholder="." onclick="appendToDisplay('.')" >
+             <input type=”button” placeholder="0" onclick="appendToDisplay('0')" >
+             <input type=”button” placeholder="=" onclick="calculateResult('=')" >
+             <input type=”button” placeholder="*" onclick="appendToDisplay('*')" >
+              </div>
+           </form>
+         </div>
+    <script src="./html1.js"></script>
+</body>
+</html>

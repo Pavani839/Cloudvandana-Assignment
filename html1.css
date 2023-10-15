@@ -1,0 +1,69 @@
+#form{
+  border: 2px solid black;
+  height: 280px;
+  width: 275px;
+  display: flex;
+  position: absolute;
+  top: 20px;
+  padding: 100px;
+  left: 550px;
+  color: aliceblue;
+  font-size: larger;
+  font-weight: bolder;
+  background-color: aqua;
+}
+#display{
+  width: 189px;
+  height: 50px;
+}
+#clear{
+  width: 55px;
+  height: 43px;
+  color: white;
+  background-color: burlywood;
+  font-size: large;
+  text-align: center;
+  font-weight: bolder;
+}
+#display input{
+  display: flex;
+  position: absolute;
+  height: 50px;
+  width: 70px;
+}
+#clear input{
+  display: flex;
+  position: absolute;
+  height: 30px;
+  width: 50px;
+}
+
+#keys1 input{
+  width: 55px;
+  height: 50px;
+  font-size: larger;
+  text-align: center;
+  font-weight: bolder;
+  background-color: antiquewhite;
+}
+#keys2 input{
+  width: 55px;
+  height: 50px;
+  color: aliceblue;
+  font-size: larger;
+  text-align: center;
+  font-weight: bolder;
+
+  background-color: antiquewhite;
+}
+#keys3 input{
+  width: 55px;
+  height: 50px;
+  color: aliceblue;
+  font-size: larger;
+background-color: antiquewhite;
+  text-align: center;
+  font-weight: bolder;
+}
+
+
